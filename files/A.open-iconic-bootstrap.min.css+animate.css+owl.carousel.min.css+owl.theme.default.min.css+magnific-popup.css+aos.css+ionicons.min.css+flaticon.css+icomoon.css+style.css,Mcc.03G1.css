@@ -20,7 +20,12 @@
     -moz-osx-font-smoothing:grayscale
   }
   .oi:empty:before{width:1em;text-align:center;box-sizing:content-box}.oi-menu:before{content:'\e09b'}
-
+/*
+@font-face {
+  font-family: apercu;
+  src: url(Apercu\ Pro\ Medium.otf);
+}
+*/
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
@@ -5586,8 +5591,10 @@ textarea.form-control {
     line-height: 1.5;
     margin-bottom: 15px; }
   .block-23 ul li span {
+    padding-left: 20px;
     color: rgba(255, 255, 255, 0.7); }
-  .block-23 ul li .icon, .block-23 ul li .text {
+  
+    .block-23 ul li .icon, .block-23 ul li .text {
     display: table-cell;
     vertical-align: top; }
   .block-23 ul li .icon {
