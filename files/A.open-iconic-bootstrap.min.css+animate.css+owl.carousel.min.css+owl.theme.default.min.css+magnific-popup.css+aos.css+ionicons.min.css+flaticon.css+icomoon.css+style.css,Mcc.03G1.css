@@ -20,12 +20,28 @@
     -moz-osx-font-smoothing:grayscale
   }
   .oi:empty:before{width:1em;text-align:center;box-sizing:content-box}.oi-menu:before{content:'\e09b'}
-/*
+
 @font-face {
-  font-family: apercu;
-  src: url(Apercu\ Pro\ Medium.otf);
+  font-family: roboto;
+  src: url(Roboto-Bold.ttf);
+  font-weight: 700;
 }
-*/
+@font-face {
+  font-family: roboto;
+  src: url(Roboto-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: roboto;
+  src: url(Roboto-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: roboto;
+  src: url(Roboto-Light.ttf);
+  font-weight: 200;
+}
+
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
@@ -57,7 +73,23 @@ Copyright (c) 2015 Daniel Eden
   src: url(ProductSans-Black.ttf);
   font-weight: 800;
 }
+@font-face {
+  font-family: apercu;
+  src: url(ProductSans-Light.ttf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: apercu;
+  src: url(ProductSans-Regular.ttf);
+  font-weight: 400;
+}
 
+
+#textone{
+  font-family: apercu;
+  font-weight: 400;
+  letter-spacing: normal;
+}
 
 .animated {
   -webkit-animation-duration: 1s;
