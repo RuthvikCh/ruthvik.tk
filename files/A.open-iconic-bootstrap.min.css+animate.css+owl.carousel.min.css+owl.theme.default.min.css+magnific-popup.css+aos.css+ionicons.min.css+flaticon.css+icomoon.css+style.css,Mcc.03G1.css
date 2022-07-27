@@ -5102,12 +5102,23 @@ h1, h2, h3, h4, h5,
     width: calc(100% - 50px); }
   .resume-wrap .date {
     font-weight: 700;
-    font-size: 18px;
-    color: rgba(0, 0, 0, 0.6);
-    color: #3e64ff; }
-  .resume-wrap h2 {
-    font-size: 24px;
-    font-weight: 700; }
+    font-size: 16px;
+    color: rgba(0, 0, 0);
+    color: #3e64ff;
+    }
+    .resume-wrap h2 {
+      font-size: 24px;
+      font-weight: 700;  }
+
+
+  .eac h6 {
+      font-size: 12px;
+      font-weight: 700;color: #479aff;  }
+  .resume-wrap .dateeac {
+      font-weight: 700;
+      font-size: 24px;
+      color: rgba(0, 0, 0);color: #171717;
+    }
   .resume-wrap .position {
     font-size: 18px;
     font-weight: 700;
@@ -5310,7 +5321,7 @@ h1, h2, h3, h4, h5,
   .ftco-hireme p {
     color: rgba(255, 255, 255, 0.9); }
 #rkpros {
-  padding: 1.5%;
+  padding: 2% !important;
 }
 .project {
   width: 100%;
@@ -5318,7 +5329,10 @@ h1, h2, h3, h4, h5,
   border-radius: 10px;
   margin-bottom: 0;
   position: relative;
-  z-index: 0; }
+  z-index: 0; 
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+
+}
   .project .overlay {
     position: absolute;
     border-radius: 10px;
@@ -5328,7 +5342,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: 0;
-    background: #3e64ff;
+    background: #0e73cb;
     z-index: -1;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
